@@ -44,7 +44,7 @@
                         <polygon points="50,0 100,0 50,100 0,100" />
                     </svg>
                     <div class="relative pt-6 px-4 sm:px-6 lg:px-8"></div>
-                    <main class="mt-10 mx-auto max-w-7xl px-4">
+                    <main class="mt-0 mx-auto max-w-7xl px-4 sm:mt-5 sm:px-6 md:mt-10 lg:px-8">
                         <div class="sm:text-center lg:text-left">
                             <div class="flex items-center">
                                 <div>
