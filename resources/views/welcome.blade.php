@@ -26,7 +26,6 @@
 
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-
     <body class="antialiased">
         <div class="relative bg-white dark:bg-gray-900 overflow-hidden">
             <div class="absolute top-0 left-0">
@@ -39,16 +38,13 @@
                     </svg>
                 </button>
             </div>
-
             <div class="max-w-7xl mx-auto">
                 <div class="relative z-10 pb-8 bg-white dark:bg-gray-900 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32 xl:min-h-screen">
                     <svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white dark:text-gray-900 transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
                         <polygon points="50,0 100,0 50,100 0,100" />
                     </svg>
-
                     <div class="relative pt-6 px-4 sm:px-6 lg:px-8"></div>
-
-                    <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-64">
+                    <main class="mt-10 mx-auto max-w-7xl px-4">
                         <div class="sm:text-center lg:text-left">
                             <div class="flex items-center">
                                 <div>
@@ -57,19 +53,25 @@
                                         <span class="block text-green-600 dark:text-green-500 xl:inline">for the whole family.</span>
                                     </h1>
                                     <p class="mt-10 text-base text-gray-500 sm:text-lg sm:max-w-xl sm:mx-auto md:text-xl lg:mx-0">
-                                        <b>Homestead</b> is a fun, family friendly, and secure community that hosts a <b>well crafted</b> Minecraft server, compatible with <a href="https://wiki.geysermc.org/geyser/using-geyser-with-consoles/" target="_blank" class="text-blue-500 hover:text-blue-500 font-semibold hover:underline hover:font-bold">any platform.</a>
+                                        <b>Homestead</b> is a fun, family friendly, and secure community that hosts a <b>well crafted</b> Minecraft server, compatible with <a href="https://wiki.geysermc.org/geyser/using-geyser-with-consoles/" target="_blank" class="text-indigo-500 hover:text-indigo-600 font-semibold">any platform.</a>
                                     </p>
                                     <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
                                         <div class="rounded-md shadow">
-                                            <a href="https://discord.com/invite/xuSxdQsrQJ" target="_blank" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10 ">Join us on Discord</a>
+                                            <a href="https://discord.com/invite/xuSxdQsrQJ" target="_blank" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-500 hover:bg-indigo-600 md:py-4 md:text-lg md:px-10 ">Join us on Discord</a>
                                         </div>
-                          
-                                        <div class="rounded-md shadow mx-auto">
-                                            <a href="http://mc.hmstd.org:8100/" target="_blank" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-emerald-600 hover:bg-emerald-500 md:py-4 md:text-lg md:px-10 ">World Map</a>
+                                    </div>
+                                    <div class="mt-5 sm:flex sm:justify-center lg:justify-start">
+                                        <div class="rounded-md shadow">
+                                            <a href="https://status.hmstd.org/" target="_blank" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-emerald-500 hover:bg-emerald-600 md:py-4 md:text-lg md:px-10 ">Status Monitor</a>
+                                        </div>
+                                    </div>
+                                    <div class="mt-5 sm:flex sm:justify-center lg:justify-start">
+                                        <div class="rounded-md shadow">
+                                            <a href="http://mc.hmstd.org:8100/" target="_blank" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600 md:py-4 md:text-lg md:px-10 ">World Map</a>
                                         </div>
                                     </div>
                                 </div>
-                                <img class="h-32 w-auto mr-5" src="images/chest.webp">
+                                <img class="h-16 md:h-32 lg:64 w-auto md:mr-5" src="images/chest.webp">
                             </div>
                         </div>
                     </main>
