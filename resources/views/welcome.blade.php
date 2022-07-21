@@ -101,6 +101,9 @@
                                             <a href="http://mc.hmstd.org:8100/" target="_blank" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600 md:py-4 md:text-lg md:px-10 ">World Map</a>
                                         </div>
                                     </div>
+                                    <h1 class="mt-20 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-gray-100 sm:text-2xl md:text-2xl">
+                                        <p class="text-gray-500 font-semibold">Server IP: <span class="text-indigo-500">mc.hmstd.org</span></p>
+                                   </h1>
                                 </div>
                                 <img class="h-16 md:h-32 lg:64 w-auto md:mr-5" src="images/chest.webp">
                             </div>
